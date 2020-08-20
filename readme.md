@@ -1,21 +1,21 @@
 # infrastructure as code with terraform
 
+### What is infrastructure as code
+Infrastructure as Code (IaC) is the process of managing and provisioning data centers through machine-readable definition files, rather than manual point-and-click. It means writing code to define your infrastructure, in the same manner you would write code to define your application software. Expressing your infrastructure as code has many distinct advantages over manual provisioning, such as being able to check code into version control systems, perform regular audit checks, and deploy faster and more reliably.
+
 ### What is terraform?
-- There are side to IaC - 1. Configuration management(Ansible) 2. Orchestration (Terraform)
-
-
-Kubernetes - Orchestration is used in containerisation i.e. Docker, crio, Rocket
-
 terraform creates the infrastructure, including the machine, networking, security and monitoring the machine
 
 
-terrform files are created with .tf
+### Terraform commands
 
-- terraform commands:
-
+```
  terraform init
+
  terraform plan - checks the steps inside the .tf file and lists success or errors
+
  terraform apply - will implement the .tf file we have created - deploy the infrastructure
+```
 
 ### DevOps and infrastructure as code
 The idea behind infrastructure as code is that you WRITE and EXECUTE code to define, deploy, update and destroy your infrastructure.
@@ -41,3 +41,9 @@ When implementing DevOps it should be possible to manage almost everyhting in co
 Terraform is high-level language and is an open-source tool that is leveraged by DevOps engineers to deploy infrastructure from the comfort of their laptop.
 
 ![terraform](imagesmd/terraform.jpeg)
+
+
+
+### Ansible Vs Terraform
+
+![ansibleterraform](imagesmd/ansibleterraform)
