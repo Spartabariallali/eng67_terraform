@@ -1,6 +1,6 @@
 # infrastructure as code with terraform
 
-### What is infrastructure as code
+### What is infrastructure as code?
 Infrastructure as Code (IaC) is the process of managing and provisioning data centers through machine-readable definition files, rather than manual point-and-click. It means writing code to define your infrastructure, in the same manner you would write code to define your application software. Expressing your infrastructure as code has many distinct advantages over manual provisioning, such as being able to check code into version control systems, perform regular audit checks, and deploy faster and more reliably.
 
 ### What is terraform?
@@ -46,4 +46,4 @@ Terraform is high-level language and is an open-source tool that is leveraged by
 
 ### Ansible Vs Terraform
 
-![ansibleterraform](imagesmd/ansibleterraform)
+![ansibleterraform](imagesmd/ansibleterraform.jpeg)
