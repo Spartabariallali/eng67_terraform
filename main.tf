@@ -73,11 +73,3 @@ resource "aws_security_group" "eng67_bari_terraform_sg" {
     Name = "eng67_terraform_cidr"
   }
 }
-
-
-
-
-
-
-
-# create egress block of code to allow all outbound traffic  - outbound traffic
